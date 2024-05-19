@@ -3,7 +3,7 @@
 void setup() {
   DigiKeyboard.delay(500);
 
-  DigiKeyboard.sendKeyStroke(KEY_X, MOD_GUI_LEFT)
+  DigiKeyboard.sendKeyStroke(KEY_X, MOD_GUI_LEFT);
   DigiKeyboard.delay(500);
 
   for (int i = 0; i < 10; i++) {
