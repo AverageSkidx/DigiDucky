@@ -49,9 +49,6 @@ void setup() {
   DigiKeyboard.print("Get-ChildItem -Path $folderPath -Recurse -Force | Remove-Item -Recurse -Force");
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.print("Write-Host \"Cleared: $folderPath\"");
-  DigiKeyboard.delay(200);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.print("} else {");
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
@@ -74,12 +71,9 @@ void setup() {
   DigiKeyboard.print("}");
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(750)
 
-  DigiKeyboard.print("Write-Host \"Cleaned temp folders.\"");
-  DigiKeyboard.delay(200);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER);
-
-  DigiKeyboard.print("exit");
+  DigiKeyboard.print("Write-Host Cleanup done! You should have a lot more space on your computer now.");
   DigiKeyboard.delay(200);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
