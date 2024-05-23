@@ -21,6 +21,8 @@ void setup() {
   DigiKeyboard.print("powershell.exe start https://github.com/AverageSkidx");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  DigiKeyboard.delay(1000);
+  DigiKeyboard.sendKeyStroke(KEY_F11);
 }
 
 void loop() {}
