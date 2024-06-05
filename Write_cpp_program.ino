@@ -13,22 +13,22 @@ void setup() {
     DigiKeyboard.delay(1000);
     DigiKeyboard.print("#include <iostream>");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(1000);
+    DigiKeyboard.delay(500);
     DigiKeyboard.print("");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
     DigiKeyboard.print("int main() {");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print("    std::cout << \"Hello, World!\" << std::endl;");
+    DigiKeyboard.print("std::cout << \"Hello, World!\" << std::endl;");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print("    return 0;");
+    DigiKeyboard.print("return 0;");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_S, MOD_CONTROL_LEFT);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print("HelloWorld.cpp")
+    DigiKeyboard.print("HelloWorld.cpp");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
 
