@@ -24,7 +24,6 @@ void setup() {
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
     DigiKeyboard.print("return 0;");
-    DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
     DigiKeyboard.sendKeyStroke(KEY_S, MOD_CONTROL_LEFT);
     DigiKeyboard.delay(1000);
